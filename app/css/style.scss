@@ -32,6 +32,9 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 ////////////////////////// CUSTOM STYLES
 // Global
 
+body{
+  overflow-x: hidden;
+}
 
 
 

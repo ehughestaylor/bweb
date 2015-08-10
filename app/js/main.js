@@ -43,7 +43,7 @@
       
       $(".typed-statement").typed({
         strings: ["<p class='typed-words'>Programmer.</p>", "<p class='typed-words'>Data Manager.</p>", "<p class='typed-words'>Problem Solver.</p>", "<p class='typed-words'>Backend-Developer.</p>"],
-        typeSpeed: 10,
+        typeSpeed: 0,
             // typing speed
             typeSpeed: 0,
             // time before typing starts

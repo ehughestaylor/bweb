@@ -7,6 +7,9 @@
   src: url(../fonts/f-striped.ttf);
   src: url(../fonts/f-striped.otf); }
 /*** Global ***/
+body {
+  overflow-x: hidden; }
+
 nav {
   background-color: white; }
   nav .social {
