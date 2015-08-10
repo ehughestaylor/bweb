@@ -14,6 +14,37 @@ nav {
     margin-right: 40px; }
   nav .fa {
     color: black; }
+  nav .button-collapse i {
+    height: 20px;
+    padding-left: 10px;
+    color: black; }
+  nav .button-collapse:hover i {
+    height: 20px;
+    padding-left: 10px;
+    color: darkgray; }
+  nav .page-tag {
+    top: 0;
+    font-family: stripFont;
+    font-size: 1.2em !important; }
+
+.typed-column {
+  position: relative; }
+
+.typed-statement {
+  height: 100px; }
+
+.typed-cursor {
+  display: none; }
+
+.typed-words {
+  color: #3BFC34;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 2.4em;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  font-family: courier; }
 
 .bg-section {
   background-color: #000;
@@ -24,33 +55,51 @@ nav {
   .bg-section .row {
     margin: 0 auto; }
   .bg-section h1 {
-    font-family: courier;
-    font-size: 4.2em; }
-  .bg-section .bg-cta {
-    color: #3BFC34;
-    text-align: left;
-    font-size: 2.4em;
-    line-height: 2.4em; }
-    .bg-section .bg-cta .fa-plus {
-      font-size: 0.4em;
-      vertical-align: middle; }
+    font-family: courier; }
   @media only screen and (max-width: 600px) {
     .bg-section .header {
-      font-size: 3.0em; } }
+      font-size: 3.0em; }
+    .bg-section .bg-cta {
+      font-size: 1.2em;
+      text-align: center; } }
 
 .slider .active {
   display: block; }
 .slider li {
   display: none; }
 
-#portfolio {
-  width: 100%;
-  background-color: red;
-  height: 50vh; }
+.bg-cta {
+  color: #3BFC34;
+  text-align: left;
+  font-size: 2.4em;
+  line-height: 2.4em;
+  height: 200px;
+  font-family: stripFont; }
+  .bg-cta .fa-plus {
+    font-size: 0.4em;
+    vertical-align: middle; }
 
+.cnt-area {
+  position: relative; }
+  .cnt-area .page-tag {
+    position: absolute;
+    left: 10px;
+    top: 0%;
+    padding: 1em;
+    font-family: stripFont;
+    font-size: 1.3em; }
+  .cnt-area #projects {
+    padding: 5rem 0; }
+
+@media only screen and (max-width: 600px) {
+  .bg-cta {
+    display: block; } }
 @media only screen and (min-width: 993px) {
   .cta-group {
     padding-left: 1em;
-    padding-top: 1.4em; } }
+    padding-top: 1.4em; }
+
+  .section {
+    min-height: 500px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,7 @@
   src:url(../fonts/f-striped.ttf);
   src:url(../fonts/f-striped.otf);
 }
-
+$small: 1.2em;
 $medium : 2.4em;
 $large:4.2em;
 $medium-container:60%;
@@ -30,6 +30,9 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 
 
 ////////////////////////// CUSTOM STYLES
+// Global
+
+
 
 
 nav{
@@ -42,6 +45,42 @@ nav{
   .fa{
     color: black;
   }
+  .button-collapse i{
+    height: 20px;
+    padding-left: 10px;
+    color: black;
+  }
+  .button-collapse:hover i{
+    height: 20px;
+    padding-left: 10px;
+    color: darkgray;
+  }
+  .page-tag{
+    top: 0;
+    font-family: stripFont;
+    font-size: $small !important;
+  }
+}
+ 
+// typed thing
+.typed-column{
+  position:relative;
+}
+.typed-statement{
+  height: 100px;
+}
+.typed-cursor{
+  display: none;
+}
+.typed-words{
+    color:#3BFC34;
+    text-align: left;
+    font-size: $small;
+    line-height: $medium;
+    position: absolute;
+    right: 50px;
+    bottom:0;
+    font-family:courier
 }
 
 .bg-section{
@@ -57,23 +96,16 @@ nav{
   //brandon johnson header
   h1{
     font-family: courier;
-    font-size: $large;
-  }
-  //top section cta
-  .bg-cta{
-    color:#3BFC34;
-    text-align: left;
-    font-size: $medium;
-    line-height: $medium;
-    .fa-plus{
-      font-size: 0.4em;
-      vertical-align:middle;
-    }
+    // font-size: $large;
   }
 
   @media #{$small-and-down} {
     .header{
       font-size: 3.0em;
+    }
+    .bg-cta{
+      font-size: $small;
+      text-align: center;
     }
   }
 }
@@ -88,14 +120,45 @@ nav{
   }
 }
 
+.bg-cta{
+  color:#3BFC34;
+  text-align: left;
+  font-size: $medium;
+  line-height: $medium;
+  height: 200px;
+  font-family: stripFont;
+  .fa-plus{
+    font-size: 0.4em;
+    vertical-align:middle;
+  }
+}
 
-#portfolio{
-  width:100%;
-  background-color:red;
-  height: 50vh;
+// CONTENT AREA
+.cnt-area{
+  position:relative;
+  .page-tag{
+    position: absolute;
+    left: 10px;
+    top: 0%;
+    // border-left: 1px solid black;
+    // border-right: 1px solid black;
+    // border-bottom: 1px solid black;
+    padding:1em;
+    font-family: stripFont;
+    font-size: 1.3em;
+  }
+  #projects{
+    padding:5rem 0
+  }
 }
 
 
+
+  @media #{$small-and-down} {
+      .bg-cta{
+        display: block;
+      }
+  }
   @media #{$medium-and-up} {
     // styles for medium screens and larger
   }
@@ -106,6 +169,9 @@ nav{
     .cta-group{
       padding-left: 1em;
       padding-top: 1.4em;
+    }
+    .section{
+      min-height: 500px;
     }
   }
        
