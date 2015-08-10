@@ -61,7 +61,8 @@ nav {
     font-family: courier; }
   @media only screen and (max-width: 600px) {
     .bg-section .header {
-      font-size: 3.0em; }
+      font-size: 2.4em;
+      text-align: center; }
     .bg-section .bg-cta {
       font-size: 1.2em;
       text-align: center; } }
