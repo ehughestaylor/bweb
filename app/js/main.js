@@ -6,7 +6,13 @@
           scrollTop: $("#portfolio").offset().top + offset
       }, 1000);
   });
+  $(".resume-btn").click(function() {
+      var offset = 20; //Offset of 20px
 
+      $('html, body').animate({
+          scrollTop: $("#resume-section").offset().top + offset
+      }, 1000);
+  });
 }    
     $(document).ready(function(){
       scrollTo();
