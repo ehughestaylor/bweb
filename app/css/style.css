@@ -13,10 +13,9 @@ body {
 nav {
   background-color: white; }
   nav .social {
-    float: right;
-    margin-right: 40px; }
-  nav .fa {
-    color: black; }
+    margin-right: 10px;
+    position: absolute;
+    right: 0; }
   nav .button-collapse i {
     height: 20px;
     padding-left: 10px;
@@ -29,6 +28,19 @@ nav {
     top: 0;
     font-family: stripFont;
     font-size: 1.2em !important; }
+  nav #slide-out {
+    background-color: transparent;
+    box-shadow: none; }
+    nav #slide-out a {
+      color: white;
+      font-size: 4.2em; }
+    nav #slide-out a:hover {
+      color: #3BFC34; }
+  nav .side-nav {
+    top: 33%; }
+
+.bio-section p {
+  font-size: 1.6em; }
 
 .typed-column {
   position: relative; }
@@ -81,7 +93,8 @@ nav {
   font-family: stripFont; }
   .bg-cta .fa-plus {
     font-size: 0.4em;
-    vertical-align: middle; }
+    vertical-align: middle;
+    color: #3BFC34; }
 
 .cnt-area {
   position: relative; }
@@ -94,6 +107,24 @@ nav {
     font-size: 1.3em; }
   .cnt-area #projects {
     padding: 5rem 0; }
+
+.project-paragraph {
+  padding-top: 3em;
+  padding-left: 2em; }
+
+#resume-section {
+  background-color: #2c3e50;
+  position: relative;
+  height: 100%; }
+  #resume-section .row {
+    padding: 3em 0; }
+  #resume-section .page-tag {
+    position: absolute;
+    left: 10px;
+    top: 0%;
+    padding: 1em;
+    font-family: stripFont;
+    font-size: 1.3em; }
 
 @media only screen and (max-width: 600px) {
   .bg-cta {

@@ -1,33 +1,19 @@
-    function goToSection(){
-      $('.indicator-btn').on('click', function(){
-        $('.indicator-btn').children().removeClass('fa-minus active');
-        $(this).children().addClass('fa-minus active');
-      });
-      $('.git-btn').on('click', function(){
-        $('.git-slide').siblings().removeClass('active');
-        $(this).children().addClass('active');
-        $('.git-slide').addClass('active animated bounceInDown');
-      });
-      $('.contact-btn').on('click', function(){
-        $('.contact-slide').siblings().removeClass('active');
-        $(this).children().addClass('active');
-        $('.contact-slide').addClass('active animated bounceInDown');
-      });
-      $('.portfolio-btn').on('click', function(){
-        $('.portfolio-slide').siblings().removeClass('active');
-        $(this).children().addClass('active');
-        $('.portfolio-slide').addClass('active animated bounceInDown');
-      });
-      $('.resume-btn').on('click', function(){
-        $('.resume-slide').siblings().removeClass('active');
-        $(this).children().addClass('active');
-        $('.resume-slide').addClass('active animated bounceInDown');
-      });
+ function scrollTo(){
+  $(".portfolio-btn").click(function() {
+      var offset = 20; //Offset of 20px
 
-    }
+      $('html, body').animate({
+          scrollTop: $("#portfolio").offset().top + offset
+      }, 1000);
+  });
 
+}    
     $(document).ready(function(){
-      $(".button-collapse").sideNav();
+      scrollTo();
+      $(".button-collapse").sideNav(
+          {menuWidth:500,
+          closeOnClick: true}
+        );
       $('.modal-trigger').leanModal();
       $('.button-collapse').on('mouseenter',function(){
         $('.fa-circle-thin').removeClass('fa-circle-thin').addClass('fa-circle');
@@ -39,7 +25,6 @@
         full_width: true,
         indicators:false
       });
-      goToSection();
       
       $(".typed-statement").typed({
         strings: ["<p class='typed-words'>Programmer.</p>", "<p class='typed-words'>Data Manager.</p>", "<p class='typed-words'>Problem Solver.</p>", "<p class='typed-words'>Backend-Developer.</p>"],
