@@ -10,8 +10,11 @@
 body {
   overflow-x: hidden; }
 
+p {
+  font-family: courier; }
+
 nav {
-  background-color: white; }
+  background-color: #FFF; }
   nav .social {
     margin-right: 10px;
     position: absolute;
@@ -38,6 +41,13 @@ nav {
       color: #3BFC34; }
   nav .side-nav {
     top: 33%; }
+
+.divide {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  bottom: 10%;
+  border-left: 1px solid white; }
 
 .bio-section p {
   font-size: 1.6em; }
@@ -96,6 +106,9 @@ nav {
     vertical-align: middle;
     color: #3BFC34; }
 
+#portfolio {
+  background-color: #FFF; }
+
 .cnt-area {
   position: relative; }
   .cnt-area .page-tag {
@@ -116,8 +129,22 @@ nav {
   background-color: #2c3e50;
   position: relative;
   height: 100%; }
-  #resume-section .row {
-    padding: 3em 0; }
+  #resume-section span {
+    display: block;
+    color: #7f8c8d !important; }
+  #resume-section h3 {
+    color: #f1c40f;
+    font-family: normalFont;
+    margin: 0; }
+  #resume-section h4 {
+    color: #bdc3c7;
+    font-size: 20px;
+    font-family: stripFont; }
+  #resume-section .top-header {
+    padding-top: 5rem; }
+  #resume-section p, #resume-section span {
+    color: #FFF;
+    font-family: courier; }
   #resume-section .page-tag {
     position: absolute;
     left: 10px;
@@ -125,6 +152,18 @@ nav {
     padding: 1em;
     font-family: stripFont;
     font-size: 1.3em; }
+  #resume-section #skill-bars {
+    margin-top: 2em; }
+  #resume-section .contact-icon {
+    display: block;
+    z-index: 10; }
+    #resume-section .contact-icon .fa {
+      color: #FFF;
+      font-size: 1.5em;
+      padding: 1em;
+      z-index: 11; }
+  #resume-section .contact-icon:hover .fa {
+    color: #f1c40f; }
 
 @media only screen and (max-width: 600px) {
   .bg-cta {
