@@ -62,9 +62,9 @@ nav {
   display: none; }
 
 .typed-words {
-  color: #3BFC34;
+  color: black;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 24px;
   line-height: 2.4em;
   position: absolute;
   right: 50px;
@@ -72,10 +72,9 @@ nav {
   font-family: courier; }
 
 .bg-section {
-  background-color: #000;
-  background-image: url(../img/background.jpg);
+  background-color: #FFF;
   font-family: stripFont;
-  color: white;
+  color: black;
   padding-top: 0; }
   .bg-section .row {
     margin: 0 auto; }

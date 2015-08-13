@@ -107,9 +107,9 @@ nav{
   display: none;
 }
 .typed-words{
-    color:#3BFC34;
+    color:black;
     text-align: left;
-    font-size: $small;
+    font-size: 24px;
     line-height: $medium;
     position: absolute;
     right: 50px;
@@ -118,10 +118,10 @@ nav{
 }
 
 .bg-section{
-  background-color: #000;
-  background-image:url(../img/background.jpg);
+  background-color: #FFF;
+  // background-image:url(../img/background.jpg);
   font-family: stripFont;
-  color:white;
+  color: black;
   padding-top:0;
   
   .row{
@@ -187,7 +187,7 @@ nav{
     font-size: 1.3em;
   }
   #projects{
-    padding:5rem 0
+    padding:5rem 0;
   }
 }
 .project-paragraph{
