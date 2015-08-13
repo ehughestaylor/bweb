@@ -23,6 +23,7 @@ $large-screen: 1200px !default;
 
 $white: #FFF;
 $gold: #f1c40f;
+$cloud: #ecf0f1;
 
 $medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
 $large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
@@ -118,7 +119,7 @@ nav{
 }
 
 .bg-section{
-  background-color: #FFF;
+  background-color: $cloud;
   // background-image:url(../img/background.jpg);
   font-family: stripFont;
   color: black;
@@ -171,7 +172,7 @@ nav{
 
 // CONTENT AREA
 #portfolio{
-  background-color: #ecf0f1;
+  background-color: white;
 }
 .cnt-area{
   position:relative;
