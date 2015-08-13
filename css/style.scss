@@ -171,7 +171,7 @@ nav{
 
 // CONTENT AREA
 #portfolio{
-  background-color: $white;
+  background-color: #ecf0f1;
 }
 .cnt-area{
   position:relative;
@@ -239,7 +239,7 @@ nav{
     margin-top: 2em;
   }
   .contact-icon{
-    display: block;
+    display: inline-block;
     z-index: 10;
     .fa{
       color: $white;
@@ -251,6 +251,12 @@ nav{
   .contact-icon:hover{
     .fa{
       color: $gold;
+    }
+  }
+  .contact{
+    a{
+      color: white; 
+      font-family: courier;
     }
   }
 }

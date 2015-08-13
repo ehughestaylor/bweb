@@ -106,7 +106,7 @@ nav {
     color: #3BFC34; }
 
 #portfolio {
-  background-color: #FFF; }
+  background-color: #ecf0f1; }
 
 .cnt-area {
   position: relative; }
@@ -155,7 +155,7 @@ nav {
   #resume-section #skill-bars {
     margin-top: 2em; }
   #resume-section .contact-icon {
-    display: block;
+    display: inline-block;
     z-index: 10; }
     #resume-section .contact-icon .fa {
       color: #FFF;
@@ -164,6 +164,9 @@ nav {
       z-index: 11; }
   #resume-section .contact-icon:hover .fa {
     color: #f1c40f; }
+  #resume-section .contact a {
+    color: white;
+    font-family: courier; }
 
 @media only screen and (max-width: 600px) {
   .bg-cta {
