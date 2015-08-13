@@ -206,6 +206,7 @@ nav{
     color: #f1c40f;
     font-family: normalFont;
     margin:0;
+    padding:0.5em 0 0;
   }
   h4{
     color: #bdc3c7;
@@ -259,9 +260,16 @@ nav{
       .bg-cta{
         display: block;
       }
+      .education{
+        border-left:none;
+      }
+
   }
   @media #{$medium-and-up} {
     // styles for medium screens and larger
+      .education{
+    border-left:1px solid white;
+  }
   }
   @media #{$medium-and-down} {
     // styles for medium screens and down

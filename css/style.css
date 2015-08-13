@@ -134,7 +134,8 @@ nav {
   #resume-section h3 {
     color: #f1c40f;
     font-family: normalFont;
-    margin: 0; }
+    margin: 0;
+    padding: 0.5em 0 0; }
   #resume-section h4 {
     color: #bdc3c7;
     font-size: 20px;
@@ -166,7 +167,13 @@ nav {
 
 @media only screen and (max-width: 600px) {
   .bg-cta {
-    display: block; } }
+    display: block; }
+
+  .education {
+    border-left: none; } }
+@media only screen and (min-width: 601px) {
+  .education {
+    border-left: 1px solid white; } }
 @media only screen and (min-width: 993px) {
   .cta-group {
     padding-left: 1em;
