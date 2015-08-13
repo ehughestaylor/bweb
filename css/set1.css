@@ -1117,7 +1117,7 @@ figure.effect-chico figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #f1c40f;
+	border: 1px solid #3BFC34;
 	content: '';
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);

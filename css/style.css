@@ -132,7 +132,7 @@ nav {
     display: block;
     color: #7f8c8d !important; }
   #resume-section h3 {
-    color: #f1c40f;
+    color: #3BFC34;
     font-family: normalFont;
     margin: 0;
     padding: 0.5em 0 0; }
@@ -163,7 +163,7 @@ nav {
       padding: 1em;
       z-index: 11; }
   #resume-section .contact-icon:hover .fa {
-    color: #f1c40f; }
+    color: #3BFC34; }
   #resume-section .contact a {
     color: white;
     font-family: courier; }
