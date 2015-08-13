@@ -176,7 +176,12 @@ nav {
     border-left: none; } }
 @media only screen and (min-width: 601px) {
   .education {
-    border-left: 1px solid white; } }
+    border-left: 1px solid white; }
+
+  .contact {
+    position: absolute;
+    bottom: 10px;
+    right: 10px; } }
 @media only screen and (min-width: 993px) {
   .cta-group {
     padding-left: 1em;
